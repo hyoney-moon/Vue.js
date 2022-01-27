@@ -1,5 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  이게 뭐야 왜 빨간줄이야?
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
