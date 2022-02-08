@@ -1,4 +1,4 @@
-### Vue.js Theory
+### Vue.js Theory 01
 ----
 #### ✏️ Vue.js?
 - Vue.js 선호 이유 1
