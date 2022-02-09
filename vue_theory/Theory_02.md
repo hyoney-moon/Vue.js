@@ -47,3 +47,24 @@ Script에 데이터 저장 후 몇회 부분에 넣을 수 있음
 - 반복문이 사용될 태그를 구분하기 위한 용도
 - 변수명 2개까지 가능
 
+#### Event Handler
+- onClick : `v-on:click="Js"` or `@click="Js"`
+- mouseover : `@mouseover="js"`
+✴ 입력할 코드가 길 때 👉 함수 만들어서 사용
+- function : data 뒤에 `methods : { function(){} }`
+
+#### Img
+assets : 상대 경로로 집어넣을 이미지나 이런거 넣어 놓는 곳
+
+#### 모달창
+[모달창 디자인] 👉 [style] 👉 
+```
+동적인 UI 만드는 법
+1. UI의 현재 상태를 데이터로 저장해 둠
+    - 그 UI가 지금 어떻게 보여야함? true/false
+2. 데이터에 따라 UI가 어떻게 보일지 작성
+    - v-if="조건문" (조건문이 true일 때만 작동)
+```
+#### import/export
+다른 파일 vue에 import
+`export default 변수명` `import 변수명 from 파일경로`
