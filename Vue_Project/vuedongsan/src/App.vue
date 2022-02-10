@@ -1,4 +1,5 @@
 <template>
+<div>
 <!-- 모달창 -->
 <div class="black-bg" v-if="openModal ==  true">
   <div class="white-bg">
@@ -39,6 +40,7 @@
     <h4>{{a.title}}</h4>
     <p>{{a.price}} 원</p>
   </div>
+</div>
 </template>
 
 <script>
